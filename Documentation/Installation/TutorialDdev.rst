@@ -64,14 +64,11 @@ docroot
     Is the folder in which all files that have to be reached by
     the browser. This folder is commonly called :file:`public`.
 
-create-docroot
-    As the directory does not exist yet, this allows DDEV to create it for you.
-
 Alternatively you can skip the prompt by supplying all of the required parameters in a single command:
 
 ..  code-block:: bash
 
-    ddev config  --project-type=typo3 --docroot=public --create-docroot --php-version 8.2
+    ddev config  --project-type=typo3 --docroot=public --php-version 8.2
 
 Start the project
 -----------------
